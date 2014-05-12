@@ -2,7 +2,7 @@ module.exports = function(config) {
   config.set({
     basePath: '',
     autoWatch: true,
-    frameworks: ['qunit'],
+    frameworks: ['qunit', 'qunit-sb'],
     files: [
       '*.js',
       'test/*.js'
